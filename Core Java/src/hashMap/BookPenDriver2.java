@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class BookPenDriver2 {
 
 	public static void main(String[] args) {
-		HashMap map = new HashMap();
+		HashMap<Object, Integer> map = new HashMap<Object, Integer>();
 		
 		Pen p = new Pen("red",23);
 		Pen p1=p;
